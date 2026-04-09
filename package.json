@@ -1,20 +1,25 @@
 {
   "name": "image-background-remover",
   "version": "1.0.0",
-  "description": "在线图片背景移除工具 - Online Image Background Remover",
+  "private": true,
   "scripts": {
-    "dev": "wrangler dev",
-    "deploy": "wrangler deploy",
-    "build": "wrangler deploy --dry-run"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
   },
-  "keywords": [
-    "background-remover",
-    "image-processing",
-    "cloudflare-workers"
-  ],
-  "author": "2766605015-dot",
-  "license": "MIT",
+  "dependencies": {
+    "next": "14.1.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
   "devDependencies": {
-    "wrangler": "^3.0.0"
+    "@types/node": "^20.11.0",
+    "@types/react": "^18.2.0",
+    "@types/react-dom": "^18.2.0",
+    "autoprefixer": "^10.4.17",
+    "postcss": "^8.4.33",
+    "tailwindcss": "^3.4.1",
+    "typescript": "^5.3.0"
   }
 }
