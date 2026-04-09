@@ -1,0 +1,20 @@
+{
+  "name": "image-background-remover",
+  "version": "1.0.0",
+  "description": "在线图片背景移除工具 - Online Image Background Remover",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy",
+    "build": "wrangler deploy --dry-run"
+  },
+  "keywords": [
+    "background-remover",
+    "image-processing",
+    "cloudflare-workers"
+  ],
+  "author": "2766605015-dot",
+  "license": "MIT",
+  "devDependencies": {
+    "wrangler": "^3.0.0"
+  }
+}
